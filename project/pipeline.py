@@ -34,7 +34,7 @@ if __name__ == '__main__':
     #print(accidents_df)
     #print(weather_df)
     
-    conn = sqlite3.connect(r'C:\Users\Impana\OneDrive\Desktop\MAde_project\project\data\my_database_db')
+    conn = sqlite3.connect(r'C:\Users\Charitha\OneDrive\Desktop\MAde_project\project\data\my_database_db')
     create_table('Accidents',accidents_df,conn)
     create_table('Weather',weather_df,conn)
     df_out = pd.read_sql_query("""SELECT * FROM Accidents where Info = 'Alkoholunfälle'""", conn)
