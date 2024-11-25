@@ -14,14 +14,18 @@ Datasources
 Datasource1: NY Registration records 
 
 Metadata URL: https://data.ny.gov/Transportation/Vehicle-and-Boat-Registrations-by-Fuel-Type-per-Co/vw9z-y4t7/about_data
+
 Data URL: https://data.ny.gov/resource/vw9z-y4t7.csv
+
 Data Type: CSV
 
 
 Datasource2: NY Census
 
 Metadata URL: https://data.census.gov/table/ACSST5Y2022.S0101?g=040XX00US36$0500000
+
 Data URL: https://api.census.gov/data/2022/acs/acs5/subject?get=group(S0101)&ucgid=pseudo(0400000US36$0500000)
+
 Data Type: JSON
 
 Work Packages
